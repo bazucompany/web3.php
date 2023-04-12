@@ -9,12 +9,12 @@
  * @license MIT
  */
 
-namespace Web3\Methods\Eth;
+namespace BAZU\Web3\Methods\Eth;
 
 use InvalidArgumentException;
-use Web3\Methods\EthMethod;
-use Web3\Validators\HexValidator;
-use Web3\Formatters\HexFormatter;
+use BAZU\Web3\Methods\EthMethod;
+use BAZU\Web3\Validators\HexValidator;
+use BAZU\Web3\Formatters\HexFormatter;
 
 class SendRawTransaction extends EthMethod
 {

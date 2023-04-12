@@ -4,17 +4,17 @@ namespace Test\Unit;
 
 use RuntimeException;
 use Test\TestCase;
-use Web3\Providers\HttpProvider;
-use Web3\RequestManagers\RequestManager;
-use Web3\RequestManagers\HttpRequestManager;
-use Web3\Eth;
+use BAZU\Web3\Providers\HttpProvider;
+use BAZU\Web3\RequestManagers\RequestManager;
+use BAZU\Web3\RequestManagers\HttpRequestManager;
+use BAZU\Web3\Eth;
 
 class EthTest extends TestCase
 {
     /**
      * eth
      * 
-     * @var \Web3\Eth
+     * @var \BAZU\Web3\Eth
      */
     protected $eth;
 

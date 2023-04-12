@@ -9,12 +9,12 @@
  * @license MIT
  */
 
-namespace Web3\Methods\Eth;
+namespace BAZU\Web3\Methods\Eth;
 
 use InvalidArgumentException;
-use Web3\Methods\EthMethod;
-use Web3\Validators\QuantityValidator;
-use Web3\Formatters\QuantityFormatter;
+use BAZU\Web3\Methods\EthMethod;
+use BAZU\Web3\Validators\QuantityValidator;
+use BAZU\Web3\Formatters\QuantityFormatter;
 
 class UninstallFilter extends EthMethod
 {

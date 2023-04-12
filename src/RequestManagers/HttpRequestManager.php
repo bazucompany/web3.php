@@ -9,7 +9,7 @@
  * @license MIT
  */
 
-namespace Web3\RequestManagers;
+namespace BAZU\Web3\RequestManagers;
 
 use InvalidArgumentException;
 use Psr\Http\Message\StreamInterface;
@@ -17,8 +17,8 @@ use RuntimeException as RPCException;
 use Psr\Http\Message\ResponseInterface;
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Client;
-use Web3\RequestManagers\RequestManager;
-use Web3\RequestManagers\IRequestManager;
+use BAZU\Web3\RequestManagers\RequestManager;
+use BAZU\Web3\RequestManagers\IRequestManager;
 
 class HttpRequestManager extends RequestManager implements IRequestManager
 {

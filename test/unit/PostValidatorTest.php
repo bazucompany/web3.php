@@ -3,14 +3,14 @@
 namespace Test\Unit;
 
 use Test\TestCase;
-use Web3\Validators\PostValidator;
+use BAZU\Web3\Validators\PostValidator;
 
 class PostValidatorTest extends TestCase
 {
     /**
      * validator
      * 
-     * @var \Web3\Validators\PostValidator
+     * @var \BAZU\Web3\Validators\PostValidator
      */
     protected $validator;
 

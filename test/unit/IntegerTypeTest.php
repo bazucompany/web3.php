@@ -4,7 +4,7 @@ namespace Test\Unit;
 
 use InvalidArgumentException;
 use Test\TestCase;
-use Web3\Contracts\Types\Integer;
+use BAZU\Web3\Contracts\Types\Integer;
 
 class IntegerTypeTest extends TestCase
 {
@@ -44,7 +44,7 @@ class IntegerTypeTest extends TestCase
     /**
      * solidityType
      * 
-     * @var \Web3\Contracts\SolidityType
+     * @var \BAZU\Web3\Contracts\SolidityType
      */
     protected $solidityType;
 

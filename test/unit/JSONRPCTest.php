@@ -4,7 +4,7 @@ namespace Test\Unit;
 
 use InvalidArgumentException;
 use Test\TestCase;
-use Web3\Methods\JSONRPC;
+use BAZU\Web3\Methods\JSONRPC;
 
 class JSONRPCTest extends TestCase
 {

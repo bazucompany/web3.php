@@ -5,14 +5,14 @@ namespace Test\Unit;
 use RuntimeException;
 use InvalidArgumentException;
 use Test\TestCase;
-use Web3\Shh;
+use BAZU\Web3\Shh;
 
 class ShhApiTest extends TestCase
 {
     /**
      * shh
      * 
-     * @var Web3\Shh
+     * @var BAZU\Web3\Shh
      */
     protected $shh;
 

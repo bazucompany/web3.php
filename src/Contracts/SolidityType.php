@@ -9,10 +9,10 @@
  * @license MIT
  */
 
-namespace Web3\Contracts;
+namespace BAZU\Web3\Contracts;
 
-use Web3\Utils;
-use Web3\Formatters\IntegerFormatter;
+use BAZU\Web3\Utils;
+use BAZU\Web3\Formatters\IntegerFormatter;
 
 class SolidityType
 {

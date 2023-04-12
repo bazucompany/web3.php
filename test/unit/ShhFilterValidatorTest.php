@@ -3,14 +3,14 @@
 namespace Test\Unit;
 
 use Test\TestCase;
-use Web3\Validators\ShhFilterValidator;
+use BAZU\Web3\Validators\ShhFilterValidator;
 
 class ShhFilterValidatorTest extends TestCase
 {
     /**
      * validator
      * 
-     * @var \Web3\Validators\ShhFilterValidator
+     * @var \BAZU\Web3\Validators\ShhFilterValidator
      */
     protected $validator;
 

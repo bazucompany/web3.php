@@ -3,7 +3,7 @@
 namespace Test\Unit;
 
 use Test\TestCase;
-use Web3\RequestManagers\RequestManager;
+use BAZU\Web3\RequestManagers\RequestManager;
 
 class RequestManagerTest extends TestCase
 {

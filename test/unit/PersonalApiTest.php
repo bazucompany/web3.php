@@ -11,7 +11,7 @@ class PersonalApiTest extends TestCase
     /**
      * personal
      * 
-     * @var Web3\Personal
+     * @var BAZU\Web3\Personal
      */
     protected $personal;
 

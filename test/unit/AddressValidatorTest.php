@@ -3,14 +3,14 @@
 namespace Test\Unit;
 
 use Test\TestCase;
-use Web3\Validators\AddressValidator;
+use BAZU\Web3\Validators\AddressValidator;
 
 class AddressValidatorTest extends TestCase
 {
     /**
      * validator
      * 
-     * @var \Web3\Validators\AddressValidator
+     * @var \BAZU\Web3\Validators\AddressValidator
      */
     protected $validator;
 

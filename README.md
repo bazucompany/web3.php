@@ -32,16 +32,16 @@ Or you can add this line in composer.json
 
 ### New instance
 ```php
-use Web3\Web3;
+use BAZU\Web3\Web3;
 
 $web3 = new Web3('http://localhost:8545');
 ```
 
 ### Using provider
 ```php
-use Web3\Web3;
-use Web3\Providers\HttpProvider;
-use Web3\RequestManagers\HttpRequestManager;
+use BAZU\Web3\Web3;
+use BAZU\Web3\Providers\HttpProvider;
+use BAZU\Web3\RequestManagers\HttpRequestManager;
 
 $web3 = new Web3(new HttpProvider(new HttpRequestManager('http://localhost:8545')));
 
@@ -64,7 +64,7 @@ $web3->clientVersion(function ($err, $version) {
 
 ### Eth
 ```php
-use Web3\Web3;
+use BAZU\Web3\Web3;
 
 $web3 = new Web3('http://localhost:8545');
 $eth = $web3->eth;
@@ -73,14 +73,14 @@ $eth = $web3->eth;
 Or
 
 ```php
-use Web3\Eth;
+use BAZU\Web3\Eth;
 
 $eth = new Eth('http://localhost:8545');
 ```
 
 ### Net
 ```php
-use Web3\Web3;
+use BAZU\Web3\Web3;
 
 $web3 = new Web3('http://localhost:8545');
 $net = $web3->net;
@@ -89,7 +89,7 @@ $net = $web3->net;
 Or
 
 ```php
-use Web3\Net;
+use BAZU\Web3\Net;
 
 $net = new Net('http://localhost:8545');
 ```
@@ -162,7 +162,7 @@ $personal->provider->execute(function ($err, $data) {
 ### Contract
 
 ```php
-use Web3\Contract;
+use BAZU\Web3\Contract;
 
 $contract = new Contract('http://localhost:8545', $abi);
 

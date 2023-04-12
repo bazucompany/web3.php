@@ -9,14 +9,14 @@
  * @license MIT
  */
 
-namespace Web3\Methods\Personal;
+namespace BAZU\Web3\Methods\Personal;
 
 use InvalidArgumentException;
-use Web3\Methods\EthMethod;
-use Web3\Validators\TransactionValidator;
-use Web3\Validators\StringValidator;
-use Web3\Formatters\TransactionFormatter;
-use Web3\Formatters\StringFormatter;
+use BAZU\Web3\Methods\EthMethod;
+use BAZU\Web3\Validators\TransactionValidator;
+use BAZU\Web3\Validators\StringValidator;
+use BAZU\Web3\Formatters\TransactionFormatter;
+use BAZU\Web3\Formatters\StringFormatter;
 
 class SendTransaction extends EthMethod
 {

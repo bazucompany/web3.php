@@ -3,14 +3,14 @@
 namespace Test\Unit;
 
 use Test\TestCase;
-use Web3\Formatters\AddressFormatter;
+use BAZU\Web3\Formatters\AddressFormatter;
 
 class AddressFormatterTest extends TestCase
 {
     /**
      * formatter
      * 
-     * @var \Web3\Formatters\AddressFormatter
+     * @var \BAZU\Web3\Formatters\AddressFormatter
      */
     protected $formatter;
 

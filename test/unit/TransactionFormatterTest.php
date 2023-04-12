@@ -3,14 +3,14 @@
 namespace Test\Unit;
 
 use Test\TestCase;
-use Web3\Formatters\TransactionFormatter;
+use BAZU\Web3\Formatters\TransactionFormatter;
 
 class TransactionFormatterTest extends TestCase
 {
     /**
      * formatter
      * 
-     * @var \Web3\Formatters\TransactionFormatter
+     * @var \BAZU\Web3\Formatters\TransactionFormatter
      */
     protected $formatter;
 

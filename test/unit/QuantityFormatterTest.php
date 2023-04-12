@@ -3,14 +3,14 @@
 namespace Test\Unit;
 
 use Test\TestCase;
-use Web3\Formatters\QuantityFormatter;
+use BAZU\Web3\Formatters\QuantityFormatter;
 
 class QuantityFormatterTest extends TestCase
 {
     /**
      * formatter
      * 
-     * @var \Web3\Formatters\QuantityFormatter
+     * @var \BAZU\Web3\Formatters\QuantityFormatter
      */
     protected $formatter;
 

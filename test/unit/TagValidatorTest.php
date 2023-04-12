@@ -3,14 +3,14 @@
 namespace Test\Unit;
 
 use Test\TestCase;
-use Web3\Validators\TagValidator;
+use BAZU\Web3\Validators\TagValidator;
 
 class TagValidatorTest extends TestCase
 {
     /**
      * validator
      * 
-     * @var \Web3\Validators\TagValidator
+     * @var \BAZU\Web3\Validators\TagValidator
      */
     protected $validator;
 

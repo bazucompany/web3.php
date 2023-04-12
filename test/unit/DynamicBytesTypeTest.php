@@ -4,7 +4,7 @@ namespace Test\Unit;
 
 use InvalidArgumentException;
 use Test\TestCase;
-use Web3\Contracts\Types\DynamicBytes;
+use BAZU\Web3\Contracts\Types\DynamicBytes;
 
 class DynamicBytesTypeTest extends TestCase
 {
@@ -44,7 +44,7 @@ class DynamicBytesTypeTest extends TestCase
     /**
      * solidityType
      * 
-     * @var \Web3\Contracts\SolidityType
+     * @var \BAZU\Web3\Contracts\SolidityType
      */
     protected $solidityType;
 

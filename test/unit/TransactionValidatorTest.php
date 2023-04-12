@@ -3,14 +3,14 @@
 namespace Test\Unit;
 
 use Test\TestCase;
-use Web3\Validators\TransactionValidator;
+use BAZU\Web3\Validators\TransactionValidator;
 
 class TransactionValidatorTest extends TestCase
 {
     /**
      * validator
      * 
-     * @var \Web3\Validators\TransactionValidator
+     * @var \BAZU\Web3\Validators\TransactionValidator
      */
     protected $validator;
 

@@ -3,14 +3,14 @@
 namespace Test;
 
 use \PHPUnit\Framework\TestCase as BaseTestCase;
-use Web3\Web3;
+use BAZU\Web3\Web3;
 
 class TestCase extends BaseTestCase
 {
     /**
      * web3
      * 
-     * @var \Web3\Web3
+     * @var \BAZU\Web3\Web3
      */
     protected $web3;
 

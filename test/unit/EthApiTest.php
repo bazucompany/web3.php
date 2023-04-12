@@ -12,7 +12,7 @@ class EthApiTest extends TestCase
     /**
      * eth
      * 
-     * @var \Web3\Eth
+     * @var \BAZU\Web3\Eth
      */
     protected $eth;
 

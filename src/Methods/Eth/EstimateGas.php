@@ -9,13 +9,13 @@
  * @license MIT
  */
 
-namespace Web3\Methods\Eth;
+namespace BAZU\Web3\Methods\Eth;
 
 use InvalidArgumentException;
-use Web3\Methods\EthMethod;
-use Web3\Validators\TransactionValidator;
-use Web3\Formatters\TransactionFormatter;
-use Web3\Formatters\BigNumberFormatter;
+use BAZU\Web3\Methods\EthMethod;
+use BAZU\Web3\Validators\TransactionValidator;
+use BAZU\Web3\Formatters\TransactionFormatter;
+use BAZU\Web3\Formatters\BigNumberFormatter;
 
 class EstimateGas extends EthMethod
 {

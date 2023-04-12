@@ -9,7 +9,7 @@
  * @license MIT
  */
 
-namespace Web3\RequestManagers;
+namespace BAZU\Web3\RequestManagers;
 
 interface IRequestManager
 {

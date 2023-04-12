@@ -10,7 +10,7 @@ class ShhBatchTest extends TestCase
     /**
      * shh
      * 
-     * @var Web3\Shh
+     * @var BAZU\Web3\Shh
      */
     protected $shh;
 

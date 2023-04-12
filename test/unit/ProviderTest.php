@@ -3,8 +3,8 @@
 namespace Test\Unit;
 
 use Test\TestCase;
-use Web3\RequestManagers\RequestManager;
-use Web3\Providers\Provider;
+use BAZU\Web3\RequestManagers\RequestManager;
+use BAZU\Web3\Providers\Provider;
 
 class ProviderTest extends TestCase
 {

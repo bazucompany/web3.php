@@ -3,14 +3,14 @@
 namespace Test\Unit;
 
 use Test\TestCase;
-use Web3\Formatters\NumberFormatter;
+use BAZU\Web3\Formatters\NumberFormatter;
 
 class NumberFormatterTest extends TestCase
 {
     /**
      * formatter
      * 
-     * @var \Web3\Formatters\NumberFormatter
+     * @var \BAZU\Web3\Formatters\NumberFormatter
      */
     protected $formatter;
 

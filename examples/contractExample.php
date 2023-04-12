@@ -2,7 +2,7 @@
 
 require('./exampleBase.php');
 
-use Web3\Contract;
+use BAZU\Web3\Contract;
 
 /**
  * testAbi

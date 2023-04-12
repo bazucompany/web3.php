@@ -9,10 +9,10 @@
  * @license MIT
  */
 
-namespace Web3\Validators;
+namespace BAZU\Web3\Validators;
 
-use Web3\Validators\IValidator;
-use Web3\Utils;
+use BAZU\Web3\Validators\IValidator;
+use BAZU\Web3\Utils;
 
 class TagValidator implements IValidator
 {

@@ -4,15 +4,15 @@ namespace Test\Unit;
 
 use RuntimeException;
 use Test\TestCase;
-use Web3\Web3;
-use Web3\Eth;
-use Web3\Net;
-use Web3\Personal;
-use Web3\Shh;
-use Web3\Utils;
-use Web3\Providers\HttpProvider;
-use Web3\RequestManagers\RequestManager;
-use Web3\RequestManagers\HttpRequestManager;
+use BAZU\Web3\Web3;
+use BAZU\Web3\Eth;
+use BAZU\Web3\Net;
+use BAZU\Web3\Personal;
+use BAZU\Web3\Shh;
+use BAZU\Web3\Utils;
+use BAZU\Web3\Providers\HttpProvider;
+use BAZU\Web3\RequestManagers\RequestManager;
+use BAZU\Web3\RequestManagers\HttpRequestManager;
 
 class Web3Test extends TestCase
 {

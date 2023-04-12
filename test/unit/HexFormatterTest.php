@@ -3,14 +3,14 @@
 namespace Test\Unit;
 
 use Test\TestCase;
-use Web3\Formatters\HexFormatter;
+use BAZU\Web3\Formatters\HexFormatter;
 
 class HexFormatterTest extends TestCase
 {
     /**
      * formatter
      * 
-     * @var \Web3\Formatters\HexFormatter
+     * @var \BAZU\Web3\Formatters\HexFormatter
      */
     protected $formatter;
 

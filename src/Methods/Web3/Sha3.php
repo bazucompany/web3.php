@@ -9,12 +9,12 @@
  * @license MIT
  */
 
-namespace Web3\Methods\Web3;
+namespace BAZU\Web3\Methods\Web3;
 
 use InvalidArgumentException;
-use Web3\Methods\EthMethod;
-use Web3\Formatters\HexFormatter;
-use Web3\Validators\StringValidator;
+use BAZU\Web3\Methods\EthMethod;
+use BAZU\Web3\Formatters\HexFormatter;
+use BAZU\Web3\Validators\StringValidator;
 
 class Sha3 extends EthMethod
 {

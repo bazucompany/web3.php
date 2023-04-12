@@ -3,14 +3,14 @@
 namespace Test\Unit;
 
 use Test\TestCase;
-use Web3\Validators\BooleanValidator;
+use BAZU\Web3\Validators\BooleanValidator;
 
 class BooleanValidatorTest extends TestCase
 {
     /**
      * validator
      * 
-     * @var \Web3\Validators\BooleanValidator
+     * @var \BAZU\Web3\Validators\BooleanValidator
      */
     protected $validator;
 

@@ -3,14 +3,14 @@
 namespace Test\Unit;
 
 use Test\TestCase;
-use Web3\Validators\QuantityValidator;
+use BAZU\Web3\Validators\QuantityValidator;
 
 class QuantityValidatorTest extends TestCase
 {
     /**
      * validator
      * 
-     * @var \Web3\Validators\QuantityValidator
+     * @var \BAZU\Web3\Validators\QuantityValidator
      */
     protected $validator;
 

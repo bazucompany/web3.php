@@ -9,59 +9,59 @@
  * @license MIT
  */
 
-namespace Web3;
+namespace BAZU\Web3;
 
-use Web3\Eth;
-use Web3\Net;
-use Web3\Personal;
-use Web3\Shh;
-use Web3\Utils;
-use Web3\Providers\Provider;
-use Web3\Providers\HttpProvider;
-use Web3\RequestManagers\RequestManager;
-use Web3\RequestManagers\HttpRequestManager;
+use BAZU\Web3\Eth;
+use BAZU\Web3\Net;
+use BAZU\Web3\Personal;
+use BAZU\Web3\Shh;
+use BAZU\Web3\Utils;
+use BAZU\Web3\Providers\Provider;
+use BAZU\Web3\Providers\HttpProvider;
+use BAZU\Web3\RequestManagers\RequestManager;
+use BAZU\Web3\RequestManagers\HttpRequestManager;
 
 class Web3
 {
     /**
      * provider
      *
-     * @var \Web3\Providers\Provider
+     * @var \BAZU\Web3\Providers\Provider
      */
     protected $provider;
 
     /**
      * eth
      * 
-     * @var \Web3\Eth
+     * @var \BAZU\Web3\Eth
      */
     protected $eth;
 
     /**
      * net
      * 
-     * @var \Web3\Net
+     * @var \BAZU\Web3\Net
      */
     protected $net;
 
     /**
      * personal
      * 
-     * @var \Web3\Personal
+     * @var \BAZU\Web3\Personal
      */
     protected $personal;
 
     /**
      * shh
      * 
-     * @var \Web3\Shh
+     * @var \BAZU\Web3\Shh
      */
     protected $shh;
 
     /**
      * utils
      * 
-     * @var \Web3\Utils
+     * @var \BAZU\Web3\Utils
      */
     protected $utils;
 
@@ -84,7 +84,7 @@ class Web3
     /**
      * construct
      *
-     * @param string|\Web3\Providers\Provider $provider
+     * @param string|\BAZU\Web3\Providers\Provider $provider
      * @return void
      */
     public function __construct($provider)
@@ -133,7 +133,7 @@ class Web3
             }
             if (!array_key_exists($method, $this->methods)) {
                 // new the method
-                $methodClass = sprintf("\Web3\Methods\%s\%s", ucfirst($class[1]), ucfirst($name));
+                $methodClass = sprintf("\BAZU\Web3\Methods\%s\%s", ucfirst($class[1]), ucfirst($name));
                 $methodObject = new $methodClass($method, $arguments);
                 $this->methods[$method] = $methodObject;
             } else {
@@ -183,7 +183,7 @@ class Web3
     /**
      * getProvider
      * 
-     * @return \Web3\Providers\Provider
+     * @return \BAZU\Web3\Providers\Provider
      */
     public function getProvider()
     {
@@ -193,7 +193,7 @@ class Web3
     /**
      * setProvider
      * 
-     * @param \Web3\Providers\Provider $provider
+     * @param \BAZU\Web3\Providers\Provider $provider
      * @return bool
      */
     public function setProvider($provider)
@@ -208,7 +208,7 @@ class Web3
     /**
      * getEth
      * 
-     * @return \Web3\Eth
+     * @return \BAZU\Web3\Eth
      */
     public function getEth()
     {
@@ -222,7 +222,7 @@ class Web3
     /**
      * getNet
      * 
-     * @return \Web3\Net
+     * @return \BAZU\Web3\Net
      */
     public function getNet()
     {
@@ -236,7 +236,7 @@ class Web3
     /**
      * getPersonal
      * 
-     * @return \Web3\Personal
+     * @return \BAZU\Web3\Personal
      */
     public function getPersonal()
     {
@@ -250,7 +250,7 @@ class Web3
     /**
      * getShh
      * 
-     * @return \Web3\Shh
+     * @return \BAZU\Web3\Shh
      */
     public function getShh()
     {
@@ -264,7 +264,7 @@ class Web3
     /**
      * getUtils
      * 
-     * @return \Web3\Utils
+     * @return \BAZU\Web3\Utils
      */
     public function getUtils()
     {

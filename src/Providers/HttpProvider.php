@@ -9,11 +9,11 @@
  * @license MIT
  */
 
-namespace Web3\Providers;
+namespace BAZU\Web3\Providers;
 
-use Web3\Providers\Provider;
-use Web3\Providers\IProvider;
-use Web3\RequestManagers\RequestManager;
+use BAZU\Web3\Providers\Provider;
+use BAZU\Web3\Providers\IProvider;
+use BAZU\Web3\RequestManagers\RequestManager;
 
 class HttpProvider extends Provider implements IProvider
 {
@@ -27,7 +27,7 @@ class HttpProvider extends Provider implements IProvider
     /**
      * construct
      * 
-     * @param \Web3\RequestManagers\RequestManager $requestManager
+     * @param \BAZU\Web3\RequestManagers\RequestManager $requestManager
      * @return void
      */
     public function __construct(RequestManager $requestManager)
@@ -38,7 +38,7 @@ class HttpProvider extends Provider implements IProvider
     /**
      * send
      * 
-     * @param \Web3\Methods\Method $method
+     * @param \BAZU\Web3\Methods\Method $method
      * @param callable $callback
      * @return void
      */

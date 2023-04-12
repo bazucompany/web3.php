@@ -9,16 +9,16 @@
  * @license MIT
  */
 
-namespace Web3\Providers;
+namespace BAZU\Web3\Providers;
 
-use Web3\RequestManagers\RequestManager;
+use BAZU\Web3\RequestManagers\RequestManager;
 
 class Provider
 {
     /**
      * requestManager
      * 
-     * @var \Web3\RequestManagers\RequestManager
+     * @var \BAZU\Web3\RequestManagers\RequestManager
      */
     protected $requestManager;
 
@@ -53,7 +53,7 @@ class Provider
     /**
      * construct
      * 
-     * @param \Web3\RequestManagers\RequestManager $requestManager
+     * @param \BAZU\Web3\RequestManagers\RequestManager $requestManager
      * @return void
      */
     public function __construct(RequestManager $requestManager)
@@ -97,7 +97,7 @@ class Provider
     /**
      * getRequestManager
      * 
-     * @return \Web3\RequestManagers\RequestManager
+     * @return \BAZU\Web3\RequestManagers\RequestManager
      */
     public function getRequestManager()
     {

@@ -9,13 +9,13 @@
  * @license MIT
  */
 
-namespace Web3\Formatters;
+namespace BAZU\Web3\Formatters;
 
 use InvalidArgumentException;
-use Web3\Utils;
-use Web3\Formatters\IFormatter;
-use Web3\Formatters\HexFormatter;
-use Web3\Formatters\QuantityFormatter;
+use BAZU\Web3\Utils;
+use BAZU\Web3\Formatters\IFormatter;
+use BAZU\Web3\Formatters\HexFormatter;
+use BAZU\Web3\Formatters\QuantityFormatter;
 
 class TransactionFormatter implements IFormatter
 {

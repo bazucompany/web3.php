@@ -3,14 +3,14 @@
 namespace Test\Unit;
 
 use Test\TestCase;
-use Web3\Validators\NonceValidator;
+use BAZU\Web3\Validators\NonceValidator;
 
 class NonceValidatorTest extends TestCase
 {
     /**
      * validator
      * 
-     * @var \Web3\Validators\NonceValidator
+     * @var \BAZU\Web3\Validators\NonceValidator
      */
     protected $validator;
 

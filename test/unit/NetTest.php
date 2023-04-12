@@ -4,17 +4,17 @@ namespace Test\Unit;
 
 use RuntimeException;
 use Test\TestCase;
-use Web3\Providers\HttpProvider;
-use Web3\RequestManagers\RequestManager;
-use Web3\RequestManagers\HttpRequestManager;
-use Web3\Net;
+use BAZU\Web3\Providers\HttpProvider;
+use BAZU\Web3\RequestManagers\RequestManager;
+use BAZU\Web3\RequestManagers\HttpRequestManager;
+use BAZU\Web3\Net;
 
 class NetTest extends TestCase
 {
     /**
      * net
      * 
-     * @var Web3\Net
+     * @var BAZU\Web3\Net
      */
     protected $net;
 

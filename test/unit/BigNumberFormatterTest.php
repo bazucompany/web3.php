@@ -4,14 +4,14 @@ namespace Test\Unit;
 
 use Test\TestCase;
 use phpseclib\Math\BigInteger as BigNumber;
-use Web3\Formatters\BigNumberFormatter;
+use BAZU\Web3\Formatters\BigNumberFormatter;
 
 class BigNumberFormatterTest extends TestCase
 {
     /**
      * formatter
      * 
-     * @var \Web3\Formatters\BigNumberFormatter
+     * @var \BAZU\Web3\Formatters\BigNumberFormatter
      */
     protected $formatter;
 

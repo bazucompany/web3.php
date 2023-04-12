@@ -4,7 +4,7 @@ namespace Test\Unit;
 
 use InvalidArgumentException;
 use Test\TestCase;
-use Web3\Contracts\Types\Str;
+use BAZU\Web3\Contracts\Types\Str;
 
 class StrTypeTest extends TestCase
 {
@@ -38,7 +38,7 @@ class StrTypeTest extends TestCase
     /**
      * solidityType
      * 
-     * @var \Web3\Contracts\SolidityType
+     * @var \BAZU\Web3\Contracts\SolidityType
      */
     protected $solidityType;
 

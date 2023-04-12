@@ -3,14 +3,14 @@
 namespace Test\Unit;
 
 use Test\TestCase;
-use Web3\Validators\IdentityValidator;
+use BAZU\Web3\Validators\IdentityValidator;
 
 class IdentityValidatorTest extends TestCase
 {
     /**
      * validator
      * 
-     * @var \Web3\Validators\IdentityValidator
+     * @var \BAZU\Web3\Validators\IdentityValidator
      */
     protected $validator;
 

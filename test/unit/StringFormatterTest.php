@@ -3,14 +3,14 @@
 namespace Test\Unit;
 
 use Test\TestCase;
-use Web3\Formatters\StringFormatter;
+use BAZU\Web3\Formatters\StringFormatter;
 
 class StringFormatterTest extends TestCase
 {
     /**
      * formatter
      * 
-     * @var \Web3\Formatters\StringFormatter
+     * @var \BAZU\Web3\Formatters\StringFormatter
      */
     protected $formatter;
 

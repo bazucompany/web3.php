@@ -9,13 +9,13 @@
  * @license MIT
  */
 
-namespace Web3\Contracts\Types;
+namespace BAZU\Web3\Contracts\Types;
 
-use Web3\Utils;
-use Web3\Contracts\SolidityType;
-use Web3\Contracts\Types\IType;
-use Web3\Formatters\IntegerFormatter;
-use Web3\Formatters\BigNumberFormatter;
+use BAZU\Web3\Utils;
+use BAZU\Web3\Contracts\SolidityType;
+use BAZU\Web3\Contracts\Types\IType;
+use BAZU\Web3\Formatters\IntegerFormatter;
+use BAZU\Web3\Formatters\BigNumberFormatter;
 
 class Integer extends SolidityType implements IType
 {

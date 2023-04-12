@@ -3,14 +3,14 @@
 namespace Test\Unit;
 
 use Test\TestCase;
-use Web3\Validators\StringValidator;
+use BAZU\Web3\Validators\StringValidator;
 
 class StringValidatorTest extends TestCase
 {
     /**
      * validator
      * 
-     * @var \Web3\Validators\StringValidator
+     * @var \BAZU\Web3\Validators\StringValidator
      */
     protected $validator;
 

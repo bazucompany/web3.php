@@ -3,14 +3,14 @@
 namespace Test\Unit;
 
 use Test\TestCase;
-use Web3\Validators\BlockHashValidator;
+use BAZU\Web3\Validators\BlockHashValidator;
 
 class BlockHashValidatorTest extends TestCase
 {
     /**
      * validator
      * 
-     * @var \Web3\Validators\BlockHashValidator
+     * @var \BAZU\Web3\Validators\BlockHashValidator
      */
     protected $validator;
 

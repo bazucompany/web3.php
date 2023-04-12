@@ -4,9 +4,9 @@ namespace Test\Unit;
 
 use RuntimeException;
 use Test\TestCase;
-use Web3\RequestManagers\HttpRequestManager;
-use Web3\Providers\HttpProvider;
-use Web3\Methods\Web3\ClientVersion;
+use BAZU\Web3\RequestManagers\HttpRequestManager;
+use BAZU\Web3\Providers\HttpProvider;
+use BAZU\Web3\Methods\BAZU\Web3\ClientVersion;
 
 class HttpProviderTest extends TestCase
 {

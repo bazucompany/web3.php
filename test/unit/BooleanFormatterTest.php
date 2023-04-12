@@ -4,14 +4,14 @@ namespace Test\Unit;
 
 use InvalidArgumentException;
 use Test\TestCase;
-use Web3\Formatters\BooleanFormatter;
+use BAZU\Web3\Formatters\BooleanFormatter;
 
 class BooleanFormatterTest extends TestCase
 {
     /**
      * formatter
      * 
-     * @var \Web3\Formatters\BooleanFormatter
+     * @var \BAZU\Web3\Formatters\BooleanFormatter
      */
     protected $formatter;
 

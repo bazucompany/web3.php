@@ -3,14 +3,14 @@
 namespace Test\Unit;
 
 use Test\TestCase;
-use Web3\Formatters\PostFormatter;
+use BAZU\Web3\Formatters\PostFormatter;
 
 class PostFormatterTest extends TestCase
 {
     /**
      * formatter
      * 
-     * @var \Web3\Formatters\PostFormatter
+     * @var \BAZU\Web3\Formatters\PostFormatter
      */
     protected $formatter;
 

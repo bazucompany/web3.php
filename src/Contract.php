@@ -9,36 +9,36 @@
  * @license MIT
  */
 
-namespace Web3;
+namespace BAZU\Web3;
 
 use InvalidArgumentException;
-use Web3\Providers\Provider;
-use Web3\Providers\HttpProvider;
-use Web3\RequestManagers\RequestManager;
-use Web3\RequestManagers\HttpRequestManager;
-use Web3\Utils;
-use Web3\Eth;
-use Web3\Contracts\Ethabi;
-use Web3\Contracts\Types\Address;
-use Web3\Contracts\Types\Boolean;
-use Web3\Contracts\Types\Bytes;
-use Web3\Contracts\Types\DynamicBytes;
-use Web3\Contracts\Types\Integer;
-use Web3\Contracts\Types\Str;
-use Web3\Contracts\Types\Uinteger;
-use Web3\Validators\AddressValidator;
-use Web3\Validators\HexValidator;
-use Web3\Validators\StringValidator;
-use Web3\Validators\TagValidator;
-use Web3\Validators\QuantityValidator;
-use Web3\Formatters\AddressFormatter;
+use BAZU\Web3\Providers\Provider;
+use BAZU\Web3\Providers\HttpProvider;
+use BAZU\Web3\RequestManagers\RequestManager;
+use BAZU\Web3\RequestManagers\HttpRequestManager;
+use BAZU\Web3\Utils;
+use BAZU\Web3\Eth;
+use BAZU\Web3\Contracts\Ethabi;
+use BAZU\Web3\Contracts\Types\Address;
+use BAZU\Web3\Contracts\Types\Boolean;
+use BAZU\Web3\Contracts\Types\Bytes;
+use BAZU\Web3\Contracts\Types\DynamicBytes;
+use BAZU\Web3\Contracts\Types\Integer;
+use BAZU\Web3\Contracts\Types\Str;
+use BAZU\Web3\Contracts\Types\Uinteger;
+use BAZU\Web3\Validators\AddressValidator;
+use BAZU\Web3\Validators\HexValidator;
+use BAZU\Web3\Validators\StringValidator;
+use BAZU\Web3\Validators\TagValidator;
+use BAZU\Web3\Validators\QuantityValidator;
+use BAZU\Web3\Formatters\AddressFormatter;
 
 class Contract
 {
     /**
      * provider
      *
-     * @var \Web3\Providers\Provider
+     * @var \BAZU\Web3\Providers\Provider
      */
     protected $provider;
 
@@ -87,14 +87,14 @@ class Contract
     /**
      * eth
      * 
-     * @var \Web3\Eth
+     * @var \BAZU\Web3\Eth
      */
     protected $eth;
 
     /**
      * ethabi
      * 
-     * @var \Web3\Contracts\Ethabi
+     * @var \BAZU\Web3\Contracts\Ethabi
      */
     protected $ethabi;
 
@@ -108,7 +108,7 @@ class Contract
     /**
      * construct
      *
-     * @param string|\Web3\Providers\Provider $provider
+     * @param string|\BAZU\Web3\Providers\Provider $provider
      * @param string|\stdClass|array $abi
      * @param mixed $defaultBlock
      * @return void
@@ -218,7 +218,7 @@ class Contract
     /**
      * getProvider
      * 
-     * @return \Web3\Providers\Provider
+     * @return \BAZU\Web3\Providers\Provider
      */
     public function getProvider()
     {
@@ -228,7 +228,7 @@ class Contract
     /**
      * setProvider
      *
-     * @param \Web3\Providers\Provider $provider
+     * @param \BAZU\Web3\Providers\Provider $provider
      * @return $this
      */
     public function setProvider($provider)
@@ -337,7 +337,7 @@ class Contract
     /**
      * getEth
      * 
-     * @return \Web3\Eth
+     * @return \BAZU\Web3\Eth
      */
     public function getEth()
     {

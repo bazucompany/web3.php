@@ -9,10 +9,10 @@
  * @license MIT
  */
 
-namespace Web3\Methods\Eth;
+namespace BAZU\Web3\Methods\Eth;
 
 use InvalidArgumentException;
-use Web3\Methods\EthMethod;
+use BAZU\Web3\Methods\EthMethod;
 
 class NewPendingTransactionFilter extends EthMethod
 {

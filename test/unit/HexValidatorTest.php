@@ -3,14 +3,14 @@
 namespace Test\Unit;
 
 use Test\TestCase;
-use Web3\Validators\HexValidator;
+use BAZU\Web3\Validators\HexValidator;
 
 class HexValidatorTest extends TestCase
 {
     /**
      * validator
      * 
-     * @var \Web3\Validators\HexValidator
+     * @var \BAZU\Web3\Validators\HexValidator
      */
     protected $validator;
 

@@ -9,12 +9,12 @@
  * @license MIT
  */
 
-namespace Web3\Methods\Shh;
+namespace BAZU\Web3\Methods\Shh;
 
 use InvalidArgumentException;
-use Web3\Methods\EthMethod;
-use Web3\Validators\QuantityValidator;
-use Web3\Formatters\QuantityFormatter;
+use BAZU\Web3\Methods\EthMethod;
+use BAZU\Web3\Validators\QuantityValidator;
+use BAZU\Web3\Formatters\QuantityFormatter;
 
 class GetFilterChanges extends EthMethod
 {

@@ -9,14 +9,14 @@
  * @license MIT
  */
 
-namespace Web3\Providers;
+namespace BAZU\Web3\Providers;
 
 interface IProvider
 {
     /**
      * send
      * 
-     * @param \Web3\Methods\Method $method
+     * @param \BAZU\Web3\Methods\Method $method
      * @param callable $callback
      * @return void
      */

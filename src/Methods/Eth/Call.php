@@ -9,15 +9,15 @@
  * @license MIT
  */
 
-namespace Web3\Methods\Eth;
+namespace BAZU\Web3\Methods\Eth;
 
 use InvalidArgumentException;
-use Web3\Methods\EthMethod;
-use Web3\Validators\TagValidator;
-use Web3\Validators\QuantityValidator;
-use Web3\Validators\CallValidator;
-use Web3\Formatters\TransactionFormatter;
-use Web3\Formatters\OptionalQuantityFormatter;
+use BAZU\Web3\Methods\EthMethod;
+use BAZU\Web3\Validators\TagValidator;
+use BAZU\Web3\Validators\QuantityValidator;
+use BAZU\Web3\Validators\CallValidator;
+use BAZU\Web3\Formatters\TransactionFormatter;
+use BAZU\Web3\Formatters\OptionalQuantityFormatter;
 
 class Call extends EthMethod
 {
