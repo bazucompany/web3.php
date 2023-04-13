@@ -2,9 +2,9 @@
 
 /**
  * This file is part of web3.php package.
- * 
+ *
  * (c) Kuan-Cheng,Lai <alk03073135@gmail.com>
- * 
+ *
  * @author Peter Lai <alk03073135@gmail.com>
  * @license MIT
  */
@@ -15,6 +15,7 @@ use BAZU\Web3\Providers\Provider;
 use BAZU\Web3\Providers\HttpProvider;
 use BAZU\Web3\RequestManagers\RequestManager;
 use BAZU\Web3\RequestManagers\HttpRequestManager;
+use Illuminate\Support\Arr;
 
 class Eth
 {
@@ -27,14 +28,14 @@ class Eth
 
     /**
      * methods
-     * 
+     *
      * @var array
      */
     private $methods = [];
 
     /**
      * allowedMethods
-     * 
+     *
      * @var array
      */
     private $allowedMethods = [
@@ -63,7 +64,7 @@ class Eth
 
     /**
      * call
-     * 
+     *
      * @param string $name
      * @param array $arguments
      * @return void
@@ -77,8 +78,7 @@ class Eth
         $class = explode('\\', get_class());
 
         if (preg_match('/^[a-zA-Z0-9]+$/', $name) === 1) {
-            $method = strtolower($class[1]) . '_' . $name;
-
+            $method = strtolower(Arr::last($class)) . '_' . $name;
             if (!in_array($method, $this->allowedMethods)) {
                 throw new \RuntimeException('Unallowed rpc method: ' . $method);
             }
@@ -93,7 +93,7 @@ class Eth
             }
             if (!array_key_exists($method, $this->methods)) {
                 // new the method
-                $methodClass = sprintf("\BAZU\Web3\Methods\%s\%s", ucfirst($class[1]), ucfirst($name));
+                $methodClass = sprintf("\BAZU\Web3\Methods\%s\%s", ucfirst(Arr::last($class)), ucfirst($name));
                 $methodObject = new $methodClass($method, $arguments);
                 $this->methods[$method] = $methodObject;
             } else {
@@ -109,7 +109,7 @@ class Eth
 
     /**
      * get
-     * 
+     *
      * @param string $name
      * @return mixed
      */
@@ -125,7 +125,7 @@ class Eth
 
     /**
      * set
-     * 
+     *
      * @param string $name
      * @param mixed $value
      * @return mixed
@@ -142,7 +142,7 @@ class Eth
 
     /**
      * getProvider
-     * 
+     *
      * @return \BAZU\Web3\Providers\Provider
      */
     public function getProvider()
@@ -152,7 +152,7 @@ class Eth
 
     /**
      * setProvider
-     * 
+     *
      * @param \BAZU\Web3\Providers\Provider $provider
      * @return bool
      */
@@ -167,7 +167,7 @@ class Eth
 
     /**
      * batch
-     * 
+     *
      * @param bool $status
      * @return void
      */
